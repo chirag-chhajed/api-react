@@ -38,9 +38,9 @@ export default function Meme(){
     }
 
     return(
-        <div className="bg-main w-100 h-auto rounded-b-md px-4">
+        <div className="bg-main w-100 h-auto rounded-b-md px-4 sm:w-80">
             <div className="py-8 flex flex-col gap-7 ">
-                <div className="flex align-middle gap-2 justify-center">
+                <div className="flex align-middle gap-2 justify-center sm:flex-col">
                     <input  
                         type="text" 
                         placeholder="Top Text"

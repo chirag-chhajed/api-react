@@ -12,6 +12,9 @@ module.exports = {
       spacing: {
         '128': '32rem',
         '100': '26rem'
+      },
+      screens:{
+        'sm':{'max': "420px"}
       }
     },
   },
