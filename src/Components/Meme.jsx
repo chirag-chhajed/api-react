@@ -72,14 +72,14 @@ export default function Meme() {
                         src={meme.randomImage}
                         alt="meme-image" />
                     <Draggable 
-                        bounds="parent"
                         
-                    ><h2 className="absolute w-11/12 text-center left-1/2 top-0 my-6 px-1 -translate-x-1/2 font-extrabold text-2xl text-white ">
+                        
+                    ><h2 className="absolute w-11/12 text-center  top-0 my-6 px-1  font-extrabold text-2xl text-white ">
                         {meme.topText}
                     </h2></Draggable>
                     <Draggable
-                    bounds="parent"
-                    ><h2 className="absolute w-11/12 text-center left-1/2 bottom-0 mb-2  px-1 -translate-x-1/2 font-extrabold text-2xl text-white ">
+                    
+                    ><h2 className="absolute w-11/12 text-center  bottom-0 mb-2  px-1 -translate-x-1/2 font-extrabold text-2xl text-white ">
                         {meme.bottomText}
                     </h2></Draggable>
 
